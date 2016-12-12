@@ -13,7 +13,6 @@ class Index extends Controller
         echo '<pre>';
         print_r($data);*/
         //return '<p>this is tp5 index</p>';
-        $view = new View();
-        return $view->fetch('index');
+        return $this->fetch('index');
     }
 }
