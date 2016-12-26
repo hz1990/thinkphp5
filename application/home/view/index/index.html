@@ -1,0 +1,14 @@
+<html>
+<header>
+    <title>aaa</title>
+</header>
+<body>
+{volist name="data" id="vo"}
+    <a href="">{$vo.name}</a><br/>
+{/volist}
+<br/>
+{$data->render()}
+<br/>
+<div>{:captcha_img()}</div>
+</body>
+</html>

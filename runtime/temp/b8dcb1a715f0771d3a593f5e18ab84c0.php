@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\WWW\think5\public/../application/index\view\index\index.html";i:1481702290;}*/ ?>
 <html>
 <head>
     <style>
@@ -5,7 +6,7 @@
     </style>
 </head>
 <body>
-<a href="{:Url('index/hello')}">hello</a>
+<a href="<?php echo Url('index/hello'); ?>">hello</a>
 <div class="center" id="center">
     <font class="font" id="font" style="color: #9877f9; font-family:微软雅黑; font-size:36; font-weight:700; line-height:200px;">welcome</font>
 </div>
